@@ -1,0 +1,23 @@
+{
+  "$schema": "./node_modules/@tramvai/cli/schema.json",
+  "projects": {
+    "example-app": {
+      "name": "example-app",
+      "root": "src",
+      "type": "application",
+      "fileSystemPages": {
+        "enabled": true
+      },
+      "sourceMap": {
+        "development": false,
+        "production": true
+      },
+      "postcss": {
+        "config": "src/postcss"
+      },
+      "hotRefresh": {
+        "enabled": true
+      }
+    }
+  }
+}
